@@ -22,11 +22,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Usl-xB-gEO">
                                 <rect key="frame" x="20" y="48" width="374" height="814"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpF-Tf-AWE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rextra large text to test correct wrap dedlknwlefnwljefblwhefbkr" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpF-Tf-AWE">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="596"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
+                                        <lineBreakStrategy key="lineBreakStrategy"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="uAM-qK-kVL">
                                         <rect key="frame" x="0.0" y="601" width="374" height="213"/>
@@ -112,6 +113,10 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="rpF-Tf-AWE" firstAttribute="leading" secondItem="Usl-xB-gEO" secondAttribute="leading" id="7An-O6-r3Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpF-Tf-AWE" secondAttribute="trailing" id="LzH-Yi-gS4"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
